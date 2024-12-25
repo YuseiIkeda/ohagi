@@ -24,18 +24,7 @@ export default function Main() {
                 </div>
             </Paper>
             <Paper elevation={3} className="section">
-                <h2>使用方法</h2>
-                <div className="pdf-container">
-                    <iframe
-                        src="/files/manual.pdf"
-                        width="80%" /* 横幅を狭く調整 */
-                        height="500px"
-                        title="使用方法"
-                    ></iframe>
-                </div>
-            </Paper>
-            <Paper elevation={3} className="section">
-                <h2>プログラム本体</h2>
+                <h2>使用方法・プログラム本体</h2>
                 <a href="https://github.com/bserab/digital_disign" target="_blank" rel="noopener noreferrer">
                     GitHub リポジトリ
                 </a>
