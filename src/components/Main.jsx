@@ -30,12 +30,6 @@ export default function Main() {
                 </a>
             </Paper>
             <Paper elevation={3} className="section">
-                <h2>アプリケーションのダウンロード</h2>
-                <a href="/files/application.zip" download>
-                    ダウンロード
-                </a>
-            </Paper>
-            <Paper elevation={3} className="section">
                 <h2>紹介ビデオ</h2>
                 <div className="video-container">
                     <iframe
